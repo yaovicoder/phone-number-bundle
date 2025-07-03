@@ -1,0 +1,27 @@
+{
+    "name": "yz/phone-number-bundle",
+    "description": "Symfony 6.4+ bundle for robust phone number validation and formatting, powered by libphonenumber.",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yaovi",
+            "email": "your@email.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "symfony/framework-bundle": ">=6.4",
+        "giggsey/libphonenumber-for-php": "^8.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yz\\PhoneNumberBundle\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.0-dev"
+        }
+    }
+} 
