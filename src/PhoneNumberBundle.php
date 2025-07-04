@@ -1,6 +1,6 @@
 <?php
 
-namespace Yz\PhoneNumberBundle;
+namespace Ydee\PhoneNumberBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

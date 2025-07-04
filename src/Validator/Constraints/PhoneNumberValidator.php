@@ -1,6 +1,6 @@
 <?php
 
-namespace Yz\PhoneNumberBundle\Validator\Constraints;
+namespace Ydee\PhoneNumberBundle\Validator\Constraints;
 
 use libphonenumber\PhoneNumberUtil;
 use libphonenumber\NumberParseException;

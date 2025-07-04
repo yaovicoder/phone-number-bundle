@@ -1,5 +1,5 @@
 {
-    "name": "yz/phone-number-bundle",
+    "name": "ydee/phone-number-bundle",
     "description": "Symfony 6.4+ bundle for robust phone number validation and formatting, powered by libphonenumber.",
     "type": "symfony-bundle",
     "license": "MIT",
@@ -20,14 +20,20 @@
     },
     "autoload": {
         "psr-4": {
-            "Yz\\PhoneNumberBundle\\": "src/"
+            "Ydee\\PhoneNumberBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Yz\\PhoneNumberBundle\\Tests\\": "tests/"
+            "Ydee\\PhoneNumberBundle\\Tests\\": "tests/"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/yaovicoder/phone-number-bundle"
+        }
+    ],
     "extra": {
         "branch-alias": {
             "dev-main": "1.0-dev"

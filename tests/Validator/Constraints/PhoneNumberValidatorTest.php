@@ -1,11 +1,11 @@
 <?php
 
-namespace Yz\PhoneNumberBundle\Tests\Validator\Constraints;
+namespace Ydee\PhoneNumberBundle\Tests\Validator\Constraints;
 
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\Validator\Test\ConstraintValidatorTestCase;
-use Yz\PhoneNumberBundle\Validator\Constraints\PhoneNumber;
-use Yz\PhoneNumberBundle\Validator\Constraints\PhoneNumberValidator;
+use Ydee\PhoneNumberBundle\Validator\Constraints\PhoneNumber;
+use Ydee\PhoneNumberBundle\Validator\Constraints\PhoneNumberValidator;
 
 class PhoneNumberValidatorTest extends ConstraintValidatorTestCase
 {

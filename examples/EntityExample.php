@@ -1,9 +1,9 @@
 <?php
 
-namespace Yz\PhoneNumberBundle\Examples;
+namespace Ydee\PhoneNumberBundle\Examples;
 
 use Doctrine\ORM\Mapping as ORM;
-use Yz\PhoneNumberBundle\Validator\Constraints\PhoneNumber;
+use Ydee\PhoneNumberBundle\Validator\Constraints\PhoneNumber;
 
 /**
  * Example entity showing how to use the PhoneNumber constraint

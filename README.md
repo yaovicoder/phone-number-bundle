@@ -1,4 +1,4 @@
-# Yz PhoneNumberBundle
+# Ydee PhoneNumberBundle
 
 Symfony 6.4+ bundle for robust phone number validation and formatting, powered by [libphonenumber](https://github.com/giggsey/libphonenumber-for-php).
 
@@ -9,7 +9,7 @@ Symfony 6.4+ bundle for robust phone number validation and formatting, powered b
 
 ## Installation
 
-```composer require yz/phone-number-bundle giggsey/libphonenumber-for-php
+```composer require ydee/phone-number-bundle giggsey/libphonenumber-for-php
 ```
 
 ## Usage
@@ -20,14 +20,14 @@ Symfony 6.4+ bundle for robust phone number validation and formatting, powered b
 // config/bundles.php
 return [
     // ...
-    Yz\PhoneNumberBundle\PhoneNumberBundle::class => ['all' => true],
+    Ydee\PhoneNumberBundle\PhoneNumberBundle::class => ['all' => true],
 ];
 ```
 
 ### 2. Add the constraint to your entity or form
 
 ```php
-use Yz\PhoneNumberBundle\Validator\Constraints\PhoneNumber;
+use Ydee\PhoneNumberBundle\Validator\Constraints\PhoneNumber;
 
 class User
 {
@@ -45,7 +45,7 @@ class User
 The default error message can be translated using Symfony's translation component. Add the following to your translation files (e.g., `validators.en.yaml`):
 
 ```yaml
-Yz\PhoneNumberBundle\Validator\Constraints\PhoneNumber:
+Ydee\PhoneNumberBundle\Validator\Constraints\PhoneNumber:
     This value is not a valid phone number.: 'Your custom message here.'
 ```
 
